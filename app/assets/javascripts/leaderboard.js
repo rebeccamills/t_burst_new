@@ -13,15 +13,15 @@ function setLeaderboard(){
 			for (i=0; i<10; i++){
 				leaders << response[1];
 			}
-			$('#leader-two').text(response[1].name + ' Wins: ' + response[1].wins)
-			$('#leader-three').text(response[2].name + ' Wins: ' + response[2].wins)
-			$('#leader-four').text(response[3].name + ' Wins: ' + response[3].wins)
-			$('#leader-five').text(response[4].name + ' Wins: ' + response[4].wins)
-			$('#leader-six').text(response[5].name + '  Wins: ' + response[5].wins)
-			$('#leader-seven').text(response[6].name + ' Wins: ' + response[6].wins)
-			$('#leader-eight').text(response[7].name + ' Wins: ' + response[7].wins)
-			$('#leader-nine').text(response[8].name + ' Wins: ' + response[8].wins)
-			$('#leader-ten').text(response[9].name + ' Wins: ' + response[9].wins)
+			$('#leader-two').text(response[1].name + ': ' + response[1].wins)
+			$('#leader-three').text(response[2].name + ': ' + response[2].wins)
+			$('#leader-four').text(response[3].name + ': ' + response[3].wins)
+			$('#leader-five').text(response[4].name + ': ' + response[4].wins)
+			$('#leader-six').text(response[5].name + ': ' + response[5].wins)
+			$('#leader-seven').text(response[6].name + ': ' + response[6].wins)
+			$('#leader-eight').text(response[7].name + ': ' + response[7].wins)
+			$('#leader-nine').text(response[8].name + ': ' + response[8].wins)
+			$('#leader-ten').text(response[9].name + ': ' + response[9].wins)
 		}, 
 		error: function(){
 			alert('Broken');
