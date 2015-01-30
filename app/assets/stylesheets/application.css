@@ -121,7 +121,9 @@ body{
 }
 
 #profile-pic{
-  border-radius: 2em;
+  height: 50px;
+  width: 50px;
+  border-radius: 3em;
 }
 
 .welcome-bar{
