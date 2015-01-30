@@ -28,19 +28,14 @@ $('#start-button').on('click', function(){
             numone = $('#ticker-one').text();
             numone ++;
             $('#ticker-one').text(numone);
-        } else if (tweet.search(second_hashtag) != -1) {
+        }}, 0);
+        setTimeout(function(){
+        if (tweet.search(second_hashtag) != -1) {
             $('#second-hashtag-result').text(tweet);
             numtwo = $('#ticker-two').text();
             numtwo ++;
-            $('#ticker-two').text(numtwo)}
-        }, 0);
-        // setTimeout(function(){
-        // if (tweet.search(second_hashtag) != -1) {
-        //     $('#second-hashtag-result').text(tweet);
-        //     numtwo = $('#ticker-two').text();
-        //     numtwo ++;
-        //     $('#ticker-two').text(numtwo);
-        // }}, 0);
+            $('#ticker-two').text(numtwo);
+        }}, 0);
     });
     setTimeout(function () {
       socket.disconnect();
