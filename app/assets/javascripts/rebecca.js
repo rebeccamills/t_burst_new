@@ -5,6 +5,7 @@ var seconds = 30;
 
 
 $("#start-button").on("click", function(){
+  $(this).prop('disabled', 'disabled');
   p = 0;
 	interval = setInterval(counter, 1000);
   });
@@ -24,7 +25,8 @@ function counter(){
   
 
 function reset(){
+  $("#start-button").removeProp('disabled');
   clearInterval(interval);
   timer.text ("Start");
-  seconds = 10;
+  seconds = 30;
 }

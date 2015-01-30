@@ -28,6 +28,7 @@ $('#start-button').on('click', function(){
             $('#first-hashtag-result').text(tweet);
             numone = $('#ticker-one').text();
             numone ++;
+            console.log(numone);
             $('#ticker-one').text(numone);
         }}, 0);
         setTimeout(function(){

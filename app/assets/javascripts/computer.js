@@ -22,3 +22,7 @@ function renderHashTag(hashTag) {
 }
 
 setRandomHashTag();
+
+$('#reset-button').click(function(){
+	setRandomHashTag();
+});
