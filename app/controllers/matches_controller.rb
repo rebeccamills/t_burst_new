@@ -19,7 +19,7 @@ class MatchesController < ApplicationController
       #if it's a win/loss situation
       if match_params[:winning_player] || match_params[:losing_player]
         #players
-        if match_params[:winning_player]
+        if match_params[:winning_player] == 'user'
           #if the winner was the current user
           @match.winning_player_id = @current_user.id
           #increment the current user leaderboard by 1

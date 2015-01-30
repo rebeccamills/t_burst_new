@@ -18,9 +18,9 @@ function setLeaderboard(){
 			$('#leader-three').text(response[2].name + ' Wins: ' + response[2].wins)
 			$('#leader-four').text(response[3].name + ' Wins: ' + response[3].wins)
 			$('#leader-five').text(response[4].name + ' Wins: ' + response[4].wins)
-			$('#leader-six').text(response[5].name + ' Wins: ' + response[5].wins)
-			$('#leader-seven').text(response[6].name + 'Wins: ' + response[6].wins)
-			// $('#leader-eight').text('Name: ' + response[7].name + 'Wins: ' + response[7].wins),
+			$('#leader-six').text(response[5].name + '  Wins: ' + response[5].wins)
+			$('#leader-seven').text(response[6].name + ' Wins: ' + response[6].wins)
+			$('#leader-eight').text('Name: ' + response[7].name + 'Wins: ' + response[7].wins),
 			// $('#leader-nine').text('Name: ' + response[8].name + 'Wins: ' + response[8].wins),
 			// $('#leader-ten').text('Name: ' + response[9].name + 'Wins: ' + response[9].wins)
 		}, 
