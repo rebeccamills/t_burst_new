@@ -27,12 +27,12 @@ Wireframes
 
 ###Technologies Used
 
-Ruby 2.1.2
-Rails
-Postgresql
-User authentication with Oauth
-Javascript
-jQuery
-CSS
-AJAX
-Rspec
+-	Ruby 2.1.2
+-	Rails
+-	Postgresql
+-	User authentication with Oauth
+-	Javascript
+-	jQuery
+-	CSS
+-	AJAX
+-	Rspec
