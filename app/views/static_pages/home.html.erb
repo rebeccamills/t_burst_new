@@ -9,12 +9,9 @@
 			<li id='you'><%= current_user.name %></li>
 			<li id="leaderboard_link">Leaderboard</li>
 			<li id="your_stats">Your Stats</li>
-			<li id="user_nav"><%= link_to "Sign Out", signout_path %></li>
+			<li id="sign-out"><%= link_to "Sign Out", signout_path %></li>
 		<%else%>
 		<li><%= link_to "Sign in with Twitter", "/auth/twitter" %></li>
-
-<!-- image_tag("https://g.twimg.com/dev/sites/default/files/images_documentation/sign-in-with-twitter-gray.png") -->
-
 		<% end %>
 		</ul>
 	</div>
