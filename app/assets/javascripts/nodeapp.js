@@ -24,6 +24,7 @@ $('#start-button').on('click', function(){
         console.log(tweet);
         setTimeout(function(){
         if (tweet.search(first_hashtag) != -1){
+            console.log(tweet);
             $('#first-hashtag-result').text(tweet);
             numone = $('#ticker-one').text();
             numone ++;
@@ -31,6 +32,7 @@ $('#start-button').on('click', function(){
         }}, 0);
         setTimeout(function(){
         if (tweet.search(second_hashtag) != -1) {
+            console.log(tweet);
             $('#second-hashtag-result').text(tweet);
             numtwo = $('#ticker-two').text();
             numtwo ++;
