@@ -60,9 +60,6 @@ body{
   list-style-type: none;
 }
 
-/*.nav li :hover{
-  color: red;
-}*/
 
 .left-container img{
   height: 100px;
@@ -124,8 +121,7 @@ body{
 }
 
 #profile-pic{
-  border-radius: 3em;
-  display: inline-block;
+  border-radius: 2em;
 }
 
 .welcome-bar{
@@ -241,6 +237,11 @@ button {
 
 a {
   text-decoration: none;
+  color: #FF9B00;
+}
+
+a :visited{
+  color: #FF9B00;
 }
 
 /*
