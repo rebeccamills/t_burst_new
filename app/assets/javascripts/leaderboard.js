@@ -21,7 +21,7 @@ function setLeaderboard(){
 			$('#leader-seven').text(response[6].name + ' Wins: ' + response[6].wins)
 			$('#leader-eight').text(response[7].name + ' Wins: ' + response[7].wins)
 			$('#leader-nine').text(response[8].name + ' Wins: ' + response[8].wins)
-			// $('#leader-ten').text('Name: ' + response[9].name + 'Wins: ' + response[9].wins)
+			$('#leader-ten').text(response[9].name + ' Wins: ' + response[9].wins)
 		}, 
 		error: function(){
 			alert('Broken');
