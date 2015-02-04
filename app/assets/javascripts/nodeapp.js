@@ -15,7 +15,7 @@ function openStream(keyword, seconds, listSelector, tickerSelector){
   var timeout = parseInt(seconds) * 1000
   var socket = io.connect('https://twitter-burst-node.herokuapp.com/', { query: query, 'forceNew': true })
   socket.on('stream', function(tweet){
-      $(listSelector).prepend(tweet + '<br>');
+      $(listSelector).text(tweet);
       num = $(tickerSelector).text();
       num ++;
       $(tickerSelector).text(num);
