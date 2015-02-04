@@ -18,8 +18,8 @@ function counter(){
   if (seconds == -1) {
       p = 1;
       clearInterval(interval);
-        $("#start-button").text ("New Game");
-        $("#start-button").on("click", reset())
+      $("#start-button").text ("New Game");
+      $("#start-button").on("click", reset())
     }
   };
   
