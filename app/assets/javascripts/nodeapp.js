@@ -27,10 +27,10 @@ function openStream(keyword, seconds, listSelector, tickerSelector){
 
 $('#start-button').click(function(){
   resetFields();
-  var one = $('#first-keyword').val();
-  var two = $('#second-keyword').val();
-  openStream(one, 30, '#first-list', '#ticker-one');
-  openStream(two, 30, '#second-list', '#ticker-two');
+  var one = $('#first-hashtag-input').val();
+  var two = $('#hash2').text();
+  openStream(one, 30, '#first-hashtag-result', '#ticker-one');
+  openStream(two, 30, '#second-hashtag-result', '#ticker-two');
 });
 
 // $('#start-button').on('click', function(){
